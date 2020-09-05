@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alteo</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="side-nav">
+            <div class="side-nav__logo-wrap">
+                <div class="side-nav__logo"></div>
+                <div class="side-nav__btn"></div>
+            </div>
+            <div class="side-nav__txt">
+                <span><em>Free flowing</em> sugars</span>
+            </div>
+            <ul class="side-nav__list">
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/01.svg" class="icon">
+                        <span>Weight control</span>
+                    </span>
+                </li>
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/02.svg" class="icon">
+                        <span>Housekeeping & hygiene</span>
+                    </span>
+                </li>
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/03.svg" class="icon">
+                        <span>Magnets & screens</span>
+                    </span>
+                </li>
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/04.svg" class="icon">
+                        <span>Lumps, metallic & non-metallic</span>
+                    </span>
+                </li>
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/05.svg" class="icon">
+                        <span>Metal detectors</span>
+                    </span>
+                </li>
+                <li class="side-nav__list-item">
+                    <span class="side-nav__list-item-link">
+                        <img src="./assets/06.svg" class="icon">
+                        <span>Labelling</span>
+                    </span>
+                </li>
+            </ul>
+        </header>
+        <main class="main-wrap">
+            <div class="main-wrap__head">
+                <div class="main-wrap__head-left">
+                    <h2>Selected type of <span>sugar..</span></h2>
+                    <p>Selected date code of coresponding sugar</p>
+                </div>
+                <div class="main-wrap__head-right">
+                    <div class="main-wrap__head-btn full"></div>
+                    <div class="main-wrap__head-btn log"></div>
+                </div>
+            </div>
+            <div class="main-wrap__nav">
+                <div class="main-wrap__input-wrap">
+                    <div class="main-wrap__input">
+                        <span>Select Sugar Type</span>
+                        <span class="caret"></span>
+                    </div>
+                </div>
+                <div class="main-wrap__input-wrap">
+                    <div class="main-wrap__input">
+                        <span>Select Date Code</span>
+                        <span class="caret"></span>
+                    </div>
+                </div>
+                <div class="main-wrap__btn"></div>
+            </div>
+            <div class="main-wrap__content">
+                <table class="record">
+                    <col class="record__col">
+                    <colgroup span="2"></colgroup>
+                    <colgroup span="2"></colgroup>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <col>
+                    <tr class="record__th">
+                        <th rowspan="2">Time</th>
+                        <th colspan="2" scope="colgroup">Bags</th>
+                        <th colspan="2" scope="colgroup">Downtimes</th>
+                        <th rowspan="2">weight of filled bags</th>
+                        <th rowspan="2">sugar colour visual</th>
+                        <th rowspan="2">sugar colour analysis</th>
+                        <th rowspan="2">sugar temp</th>
+                        <th rowspan="2">sugar hum %</th>
+                        <th rowspan="2">Pol %</th>
+                        <th rowspan="2">Interior of bags check</th>
+                        <th rowspan="2">Black specks within limits? (Y/N)</th>
+                    </tr>
+                    <tr class="record__th">
+                        <th scope="col">Nb.</th>
+                        <th scope="col">Total</th>
+                        <th scope="col">Duration</th>
+                        <th scope="col">Reasons</th>
+                    </tr>
+                    <tr>
+                        <th scope="row">7:00</th>
+                        <td>20</td>
+                        <td>30</td>
+                        <td>3hr</td>
+                        <td>-</td>
+                        <td>25kg</td>
+                        <td>Brown</td>
+                        <td>-</td>
+                        <td>24</td>
+                        <td>70</td>
+                        <td>90</td>
+                        <td>-</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">8:00</th>
+                        <td>10</td>
+                        <td>30</td>
+                        <td>4hr</td>
+                        <td>-</td>
+                        <td>15kg</td>
+                        <td>Brown</td>
+                        <td>-</td>
+                        <td>23</td>
+                        <td>80</td>
+                        <td>70</td>
+                        <td>-</td>
+                        <td>N</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">9:00</th>
+                        <td>10</td>
+                        <td>50</td>
+                        <td>9hr</td>
+                        <td>-</td>
+                        <td>24kg</td>
+                        <td>Brown</td>
+                        <td>-</td>
+                        <td>27</td>
+                        <td>60</td>
+                        <td>10</td>
+                        <td>-</td>
+                        <td>N</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">10:00</th>
+                        <td>5</td>
+                        <td>40</td>
+                        <td>10hr</td>
+                        <td>-</td>
+                        <td>26kg</td>
+                        <td>Brown</td>
+                        <td>-</td>
+                        <td>28</td>
+                        <td>70</td>
+                        <td>20</td>
+                        <td>-</td>
+                        <td>Y</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">11:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">12:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">13:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">14:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">15:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">16:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">17:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">18:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">19:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">20:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">21:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">22:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">23:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">00:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5:00</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
