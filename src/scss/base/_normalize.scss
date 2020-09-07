@@ -74,5 +74,37 @@ body {
   font-size: 0.85rem;
   font-weight: 400;
   font-family: $primaryFont;
+
+  &.is-collapsed{
+
+    .side-nav{
+      width: 65px;
+      overflow: hidden;
+
+      &__logo{
+        background-size: 50px;
+      }
+
+      &__list-item-link>span{
+        display: none;
+      }
+
+      &__collapse-txt{
+        display: none;
+      }
+
+      &__txt-full{
+        display: none;
+      }
+
+      &__txt-abbr{
+        display: block;
+      }
+    }
+
+    .main-wrap{
+      padding-left: 65px;
+    }
+  }
 }
 

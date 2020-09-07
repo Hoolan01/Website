@@ -80,7 +80,7 @@ gulp.task('serve', gulp.series('compileSass', function () {
     });
 
     gulp.watch('src/scss/**/*.scss', gulp.series('compileSass'));
-    //gulp.watch('src/js/function.js', gulp.series('combineJS'));
+    gulp.watch('src/js/function.js').on('change', browserSync.reload);
     gulp.watch('src/*.html').on('change', browserSync.reload);
 }));
   

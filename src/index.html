@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alteo</title>
+    <link rel="icon" type="image/png" href="./assets/fav.png">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -14,46 +16,73 @@
                 <div class="side-nav__btn"></div>
             </div>
             <div class="side-nav__txt">
-                <span><em>Free flowing</em> sugars</span>
+                <span class="side-nav__txt-full"><em>Free flowing</em> sugars</span>
+                <span class="side-nav__txt-abbr">FFS</span>
             </div>
             <ul class="side-nav__list">
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/01.svg" class="icon">
                         <span>Weight control</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR – 96</span> Weight check record - Connected to QR 86</li>
+                    </ul>
                 </li>
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/02.svg" class="icon">
                         <span>Housekeeping & hygiene</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR - 28</span> Condition of employee Hygiene & Health</li>
+                        <li class="dropdown__link"><span>QR – 42</span> Handwashing and Sanitizing Facilities</li>
+                        <li class="dropdown__link"><span>QR – 84</span> Equipment Cleaning Free Flowing Section B</li>
+                    </ul>
                 </li>
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/03.svg" class="icon">
                         <span>Magnets & screens</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR – 35</span> Magnet Cleaning and Screen Check for Free Flowing Sugars B </li>
+                        <li class="dropdown__link"><span>QR - 46</span> Assessment of Metal Detector Rejects</li>
+                    </ul>
                 </li>
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/04.svg" class="icon">
                         <span>Lumps, metallic & non-metallic</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR – 39</span> Free Flowing Assessment of Lumps, Metallic and Non Metallic Record </li>
+                    </ul>
                 </li>
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/05.svg" class="icon">
                         <span>Metal detectors</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR – 33</span> Metal Detector Test Records</li>
+                        <li class="dropdown__link"><span>QR - 46</span> Assessment of Metal Detector Rejects</li>
+                    </ul>
                 </li>
                 <li class="side-nav__list-item">
-                    <span class="side-nav__list-item-link">
+                    <span class="side-nav__list-item-link has-dropdown">
                         <img src="./assets/06.svg" class="icon">
                         <span>Labelling</span>
                     </span>
+                    <ul class="dropdown">
+                        <li class="dropdown__link"><span>QR - 102</span> Labelling and pack control</li>
+                    </ul>
                 </li>
             </ul>
+            <div class="side-nav__collapse">
+                <span class="side-nav__collapse-txt">Collapse sidebar</span>
+                <img src="assets/enter.svg">
+            </div>
         </header>
         <main class="main-wrap">
             <div class="main-wrap__head">
@@ -67,6 +96,14 @@
                 </div>
             </div>
             <div class="main-wrap__nav">
+                <ul class="main-wrap__nav-action">
+                    <li class="main-wrap__nav-action-btn">
+                        <img src="./assets/excel.svg">
+                    </li>
+                    <li class="main-wrap__nav-action-btn">
+                        <img src="./assets/lay.svg">
+                    </li>
+                </ul>
                 <div class="main-wrap__input-wrap">
                     <div class="main-wrap__input">
                         <span>Select Sugar Type</span>
@@ -460,5 +497,6 @@
             </div>
         </main>
     </div>
+    <script src="./js/function.js"></script>
 </body>
 </html>
